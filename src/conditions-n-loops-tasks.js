@@ -346,7 +346,7 @@ function getSpiralMatrix(/* size */) {
  *  ]                 ]
  */
 function rotateMatrix(matrix) {
-  console.log(matrix);
+  /* console.log(matrix); */
   const m = matrix;
   let r = [];
   r = [];
@@ -358,9 +358,9 @@ function rotateMatrix(matrix) {
       r[j][m.length - 1 - i] = m[i][j];
     }
   }
-  console.log(matrix);
+  /* console.log(matrix);
   console.log(m);
-  console.log(r);
+  console.log(r); */
   return r;
 }
 
